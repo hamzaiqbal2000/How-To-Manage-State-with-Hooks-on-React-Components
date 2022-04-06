@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+## About Project
+In React development, keeping track of how your application data changes over time is called state management. By managing the state of your application, you will be able to make dynamic apps that respond to user input. There are many methods of managing state in React, including class-based state management and third-party libraries like Redux. In this tutorial, you’ll manage state on functional components using a method encouraged by the official React documentation: Hooks.
+
+Hooks are a broad set of tools that run custom functions when a component’s props change. Since this method of state management doesn’t require you to use classes, developers can use Hooks to write shorter, more readable code that is easy to share and maintain. One of the main differences between Hooks and class-based state management is that there is no single object that holds all of the state. Instead, you can break up state into multiple pieces that you can update independently.
+
+Have learned how to set state using the useState and useReducer Hooks. The useState Hook is valuable when setting a value without referencing the current state; the useReducer Hook is useful when you need to reference a previous value or when you have different actions the require complex data manipulations. To explore these different ways of setting state, have created a product page component with a shopping cart that will update by adding purchases from a list of options.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
